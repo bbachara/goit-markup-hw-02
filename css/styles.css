@@ -17,13 +17,18 @@ font-family: "Raleway", sans-serif;
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--color-dark);
+  color: var(--color-text);
+  background-color: var(--color-white-background);
   font-weight: 500;
 }
 
 .link {
   text-decoration: none;
-  color: var(--color-dark);
+  color: var(--#2e2f42);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -40,15 +45,26 @@ body {
   color: var(--color-pressed-state);
 }
 .logo-studio {
-  color: var(--color-text);
+  color: var(--color-dark);
+}
+
+.list {
+  list-style: none;
+}
+
+.address-item {
+  font-style: normal;
 }
 
 .link-address {
   color: var(--color-text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .link-address:hover,
-.link-adres:focus {
+.link-address:focus {
   color: var(--color-pressed-state);
 }
 
@@ -57,6 +73,12 @@ body {
 }
 
 .filter-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-primary-brand);
   background-color: var(--color-light);
   cursor: pointer;
 }
@@ -100,7 +122,7 @@ body {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
@@ -111,7 +133,7 @@ body {
 .title-button {
   color: var(--color-white-background);
   background-color: var(--color-primary-brand);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -142,20 +164,41 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .header-secondary {
   color: var(--color-dark);
+  text-align: center;
   font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
 .header-secondary-empty {
   color: var(--color-white-background);
+}
+
+.section-tertiary {
+  background-color: var(--color-light);
+}
+
+.team-list {
+  background-color: var(--color-white-background);
+}
+
+.title-empty {
+  color: var(--color-white-background);
+}
+
+.header-secondary-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
 }
