@@ -20,14 +20,6 @@ body {
   font-weight: 500;
 }
 
-.link {
-  text-decoration: none;
-  color: var(--#2e2f42);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -38,6 +30,16 @@ body {
   color: var(--color-primary-brand);
   text-decoration: none;
 }
+
+.link {
+  text-decoration: none;
+  color: var(--#2e2f42);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .link:hover,
 .link:focus {
   color: var(--color-pressed-state);
