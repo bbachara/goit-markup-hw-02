@@ -13,8 +13,6 @@
   --color-modal-background: #fcfcfc;
 }
 
-font-family: "Raleway", sans-serif;
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-text);
